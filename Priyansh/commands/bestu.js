@@ -66,9 +66,9 @@ module.exports.run = async function ({ event, api, args }) {
   const fs = global.nodemodule["fs-extra"];
   const { threadID, messageID, senderID } = event;
   const mention = Object.keys(event.mentions);
-  if (!mention[0]) return api.sendMessage("Tag one person🦆💨", threadID, messageID);
+  if (!mention[0]) return api.sendMessage("ᴛᴀɢ ᴏɴᴇ ᴘᴇʀsᴏɴ🦆💨", threadID, messageID);
   else {
       const one = senderID, two = mention[0];
-      return makeImage({ one, two }).then(path => api.sendMessage({ body: "✧•❁𝐅𝐫𝐢𝐞𝐧𝐝𝐬𝐡𝐢𝐩❁•✧\n\n╔═══❖••° °••❖═══╗\n\n   𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐏𝐚𝐢𝐫𝐢𝐧𝐠\n\n╚═══❖••° °••❖═══╝\n\n   ✶⊶⊷⊷❍⊶⊷⊷✶\n\n       👑KUJE PAISI AITA RE ❤\n\nNE TOR BATAR BESTU�\n\n   ✶⊶⊷⊷❍⊶⊷⊷✶", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+      return makeImage({ one, two }).then(path => api.sendMessage({ body: "✧•❁𝐅𝐫𝐢𝐞𝐧𝐝𝐬𝐡𝐢𝐩❁•✧\n\n╔═══❖••° °••❖═══╗\n\n   𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐏𝐚𝐢𝐫𝐢𝐧𝐠\n\n╚═══❖••° °••❖═══╝\n\n   ✶⊶⊷⊷❍⊶⊷⊷✶\n\n       👑ᴋᴜᴊᴇ ᴘᴀɪsɪ ᴀɪᴛᴀ ʀᴇ ❤\n\nɴᴇ ᴛᴏʀ ʙᴀᴛᴀʀ ʙᴇsᴛᴜ�\n\n   ✶⊶⊷⊷❍⊶⊷⊷✶", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
   }
     }
