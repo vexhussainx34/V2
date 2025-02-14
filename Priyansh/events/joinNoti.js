@@ -33,7 +33,7 @@ module.exports.run = async function({ api, event }) {
         const fs = require("fs");
         return api.sendMessage("", event.threadID, () => api.sendMessage({body: `🍒💙•••Ɓ❍ʈ Ƈøɳɳɛƈʈɛɗ•••💞🌿
         
-🕊️🌸...Ɦɛɭɭ❍ Ɠɣus Ɱɣ Ɲɑɱɛ Is 🍒💙•••✦𝘽𝙤𝙩✦•••💞🌿
+🕊️🌸...Ɦɛɭɭ❍ Ɠɣus Ɱɣ Ɲɑɱɛ Is 🍒💙•••✦ ᴋᴜʀᴜᴍɪ ᴀɪᥫᥫ᭡✦•••💞🌿
 
 
 
