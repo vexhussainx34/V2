@@ -1,4 +1,4 @@
-module.exports.config = {
+Forule.exports.config = {
   name: "prefix",
   version: "1.0.0",
   hasPermssion: 0,
@@ -25,10 +25,10 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
     if (body === i.toUpperCase() | body === i | str === body) {
 const prefix = threadSetting.PREFIX || global.config.PREFIX;
       if (data.PREFIX == null) {
-        return out(`This Is My Prefix ⇉ [ ${prefix} ]\n💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝕻𝖗𝖎𝖞𝖆𝖓𝖘𝖍 𝕽𝖆𝖏𝖕𝖚𝖙☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 ℙ𝕣𝕚𝕪𝕒𝕟𝕤𝕙🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ www.facebook.com/priyanshu.rajput.official\n
-👋For Any Kind Of Help Contact On Telegram  Username 👉 @Priyanshrajput😇`)
+        return out(`This Is My Prefix ⇉ [ ${prefix} ]\n💝🥀🇧🇩𝐎𝐖𝐍𝐄𝐑:- ☞𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 H4SSA1N🖤\n🍒🍻𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🍒🍻:- ☞ https://www.facebook.com/profile.php?id=100071009500533\n
+👋🍒For Any Kind Of Help Contact On Telegram  Username 👉🍻 @bal demu🦆💨🫢`)
       }
-      else return out('️️️️️️️️️️️️️️️️️️️️️️️️️️️This Is My Prefix ⇉ [ ${prefix} ]  \n💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝕻𝖗𝖎𝖞𝖆𝖓𝖘𝖍 𝕽𝖆𝖏𝖕𝖚𝖙☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 ℙ𝕣𝕚𝕪𝕒𝕟𝕤𝕙🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ www.facebook.com/priyanshu.rajput.official\n👋For Any Kind Of Help Contact On Telegram  Username 👉 @Priyanshrajput😇' + data.PREFIX)
+      else return out('️️️️️️️️️️️️️️️️️️️️️️️️️️️This Is My Prefix ⇉ [ ${prefix} ]  \n💝🥀🇧🇩𝐎𝐖𝐍𝐄𝐑:- ☞𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 H4SSA1N🖤\n🍒🍻𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🍒🍻:- ☞ https://www.facebook.com/profile.php?id=100071009500533\n👋For Any Kind Of Help Contact On Telegram  Username 👉 @bal demu🦆💨🫢' + data.PREFIX)
     }
 
   });
