@@ -93,7 +93,7 @@ A̸N̸D̸ F̸O̸R̸ A̸N̸Y̸ R̸E̸P̸O̸R̸T̸ O̸R̸ C̸O̸N̸T̸A̸C̸T̸ B�
             }
             memLength.sort((a, b) => a - b);
             
-            (typeof threadData.customJoin == "undefined") ? msg = "°°__𝗧𝗿𝘂𝘀𝘁 𝗺e 🔐 °__!!>☁️✨❤️ My Owner  ✦͙͙͙͙❥⃝∗⁎.ʚ 𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡 ɞ.⁎∗❥⃝**͙✦͙͙͙" : msg = threadData.customJoin;
+            (typeof threadData.customJoin == "undefined") ? msg = "°__!!>☁️✨❤️ MY CREATOR ⇨ ✦͙͙͙͙❥⃝∗⁎.ʚ 𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡 ɞ.⁎∗❥⃝**͙✦͙͙͙" : msg = threadData.customJoin;
             msg = msg
             .replace(/\{name}/g, nameArray.join(', '))
             .replace(/\{type}/g, (memLength.length > 1) ?  'Friends' : 'Friend')
