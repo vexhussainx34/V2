@@ -174,8 +174,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
 
-   if ((event.body.toLowerCase() == "") || (event.body.toLowerCase() == "hmm")) {
-     return api.sendMessage("️Hmm hmm na kore hussain re msg de single ase jitbi🦆💨🫢", threadID);
+   if ((event.body.toLowerCase() == "relations korbi") || (event.body.toLowerCase() == "prem korbi")) {
+     return api.sendMessage("️Amare aisob na bole hussain re msg de single ase jitbi🦆💨🫢", threadID);
    };
 
    if ((event.body.toLowerCase() == "😭") || (event.body.toLowerCase() == "😭") || (event.body.toLowerCase() == "😭") || (event.body.toLowerCase() == "😭")) {
@@ -250,7 +250,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Hasle tore churer moto lage🥲", threadID);
    };
 
-   if ((event.body.toLowerCase() == "🥰") || (event.body.toLowerCase() == "😍") || (event.body.toLowerCase() == "😻") || (event.body.toLowerCase() == "❤️")) {
+   if ((event.body.toLowerCase() == "💋") || (event.body.toLowerCase() == "💋") || (event.body.toLowerCase() == "😻") || (event.body.toLowerCase() == "❤️")) {
      return api.sendMessage("🦋🌿Aƞƙɧ❍ Ɱɛ Ƥɣɑɽ͢  Ɗɪɭɱɛ Ƙɧuɱɑɽ🌬️🌍 ••Ƥɣɑɽ Ƭ❍ɧ Ƞɧɪ Ƙɒɽ ɭɪɣɑ Ɱuȷɧʂɛ>³••🕊️🍎😍", threadID);
    };
 
@@ -290,7 +290,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Fuck you tooo bepi🥺🖕😊", threadID);
    };
 
-  if ((event.body.toLowerCase() == "ami hussain") || (event.body.toLowerCase() == "ami sumu") || (event.body.toLowerCase() == "ami esha") || (event.body.toLowerCase() == "tor boss ami") || (event.body.toLowerCase() == "ami tore banaisi")) {
+  if ((event.body.toLowerCase() == "ami hussain") || (event.body.toLowerCase() == "ami tor boss") || (event.body.toLowerCase() == "ami esha") || (event.body.toLowerCase() == "tor boss ami") || (event.body.toLowerCase() == "ami tore banaisi")) {
      return api.sendMessage("🕊️🍎...Aɭɛ Ɱɛɹɛ Ɓɑɓɣ Ƙɛʂɛ Ɦɵ ɑɑp😚🍒", threadID);
    };
    mess = "{name}"
