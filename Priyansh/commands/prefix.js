@@ -1,4 +1,4 @@
-Forule.exports.config = {
+module.exports.config = {
   name: "prefix",
   version: "1.0.0",
   hasPermssion: 0,
@@ -25,10 +25,10 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
     if (body === i.toUpperCase() | body === i | str === body) {
 const prefix = threadSetting.PREFIX || global.config.PREFIX;
       if (data.PREFIX == null) {
-        return out(`This Is My Prefix ⇉ [ ${prefix} ]\n💝🥀🇧🇩𝐎𝐖𝐍𝐄𝐑:- ☞𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 H4SSA1N🖤\n🍒🍻𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🍒🍻:- ☞ https://www.facebook.com/profile.php?id=100071009500533\n
-👋🍒For Any Kind Of Help Contact On Telegram  Username 👉🍻 @bal demu🦆💨🫢`)
+        return out(`This Is My Prefix ⇉ [ ${prefix} ]\n💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡☜\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 H4SSA1N🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ https://www.facebook.com/profile.php?id=100071009500533\n
+👋For Any Kind Of Help Contact On Telegram  Username 👉 @Priyanshrajput😇`)
       }
-      else return out('️️️️️️️️️️️️️️️️️️️️️️️️️️️This Is My Prefix ⇉ [ ${prefix} ]  \n💝🥀🇧🇩𝐎𝐖𝐍𝐄𝐑:- ☞𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 H4SSA1N🖤\n🍒🍻𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🍒🍻:- ☞ https://www.facebook.com/profile.php?id=100071009500533\n👋For Any Kind Of Help Contact On Telegram  Username 👉 @bal demu🦆💨🫢' + data.PREFIX)
+      else return out('️️️️️️️️️️️️️️️️️️️️️️️️️️️This Is My Prefix ⇉ [ ${prefix} ]  \n💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞Hᴜssᴀɪɴ 〆ᬊᬁ☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 H4SSA1N🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ https://www.facebook.com/profile.php?id=100071009500533\n👋For Any Kind Of Help Contact On Telegram  Username 👉 @none public😇' + data.PREFIX)
     }
 
   });
@@ -36,4 +36,4 @@ const prefix = threadSetting.PREFIX || global.config.PREFIX;
 
 module.exports.run = async({ event, api }) => {
     return api.sendMessage("error", event.threadID)
-}
+  }
