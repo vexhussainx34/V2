@@ -21,11 +21,11 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL })
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("@Tʜɘ Dʌʀĸ Hʋŋtɘʀ")==0 || event.body.indexOf("@𝐓ɽ͜͡𝐮𝐬ʈ 𝐌̽𝐞 𝐁𝐚͜͡𝐛ɣ̈̈›› 𝐈 𝐖ɪ̽ɭɭ ဗီူံ ๛⃝𓆩𝐁ɽ͜͡𝐞̽ɑ̽𝐤 𝐘ǿ𝐮̽ɾ 𝐇𝐞̽𝐚͜͡𝐫ʈﮩﮩــﮩــــ𓆩  𓆪〘̶𑁍 〘̶𑁍𓆩⃝𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡𓆪 † 』𓆩๏̬̬̬̬̬̬𓆪†『٭𝐱͜͡⃝ᴆ』†٭❯")==0 || event.body.indexOf("@Tʜɘ Dʌʀĸ Hʋŋtɘʀ")==0 || event.body.indexOf("Hussain")==0) {
 		var msg = {
-				body: "H4SSA1N ✨💖🥀",
+				body: "MY OWNER _Hᴜssᴀɪɴ 〆ᬊᬁ",
 				attachment: fs.createReadStream(__dirname + `/noprefix/Priyansh.png`)
 			}
 			api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("💔", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🌍", event.messageID, (err) => {}, true)
 		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
